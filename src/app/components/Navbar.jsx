@@ -1,11 +1,14 @@
 
+import Link from 'next/link';
 import React from 'react';
 
 const Navbar = () => {
 
   const links=<>
-  <li><a href="/docx">docx</a></li>
-      <li><a href="/about`">About</a></li></>
+  <li><Link href="/docx">docx</Link></li>
+      <li><Link href="/about">About</Link></li>
+      <li><Link href="/blogs">Blogs</Link></li>
+    </>
     return (
     
             <div className="navbar bg-base-100 shadow-sm">
